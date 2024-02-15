@@ -1,0 +1,52 @@
+.bottom {
+    text-align: center;
+    margin: 20px auto; /* Adjusted for responsiveness */
+}
+
+.bottom-container {
+    text-align: center;
+    margin: 20px auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blue {
+    color: rgb(71, 157, 233);
+}
+
+.num-btn {
+    border: 1px solid black;
+    padding: 5px 10px;
+    color: rgb(71, 157, 233);
+}
+
+.num-btn:hover {
+    color: white;
+    background-color: rgb(71, 157, 233);
+    cursor: pointer;
+}
+
+.arraw-btn {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.arraw {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.arraw:hover {
+    color: white;
+    background-color: rgb(71, 157, 233);
+    cursor: pointer;
+}

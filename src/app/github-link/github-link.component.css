@@ -1,0 +1,13 @@
+
+
+.github-link {
+    display: flex;
+    gap: 4px; /* Adjusted for responsiveness */
+    margin-left: 23px;
+    margin: 20px 26px;
+    align-items: center;
+}
+
+.github-link > img {
+    width: 1.3vw; /* Using vw for relative sizing based on viewport */
+}

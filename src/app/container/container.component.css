@@ -1,0 +1,29 @@
+
+
+.blue {
+    color: rgb(71, 157, 233);
+    font-weight: 200;
+}
+
+.container {
+    width: 95%;
+    max-width: 700px;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.back-blue {
+    background-color: rgb(71, 157, 233);
+    color: white;
+    padding: 5px 10px;
+}

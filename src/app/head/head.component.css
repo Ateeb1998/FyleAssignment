@@ -1,0 +1,42 @@
+
+
+.head-component {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.gray-background {
+    border: 3px solid rgb(128, 128, 128,0.2);
+    border-radius: 50%;
+}
+
+.circle-profile {
+    width: 15vmin; 
+    height: 15vmin;
+    background-color: rgb(128, 128, 128,0.2);
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 0,0.3);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vmin;
+}
+
+.profile-name {
+    font-size: 25px;
+}
+
+.profile-location {
+    display: flex;
+    gap: 0.8vw;
+}

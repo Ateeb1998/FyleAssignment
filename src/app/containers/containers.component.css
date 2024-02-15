@@ -1,0 +1,6 @@
+.containers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); /* Adjusted for responsiveness */
+    gap: 20px; /* Adjusted for responsiveness */
+    /* justify-content: center; Centering the grid */
+}
